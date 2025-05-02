@@ -4,7 +4,10 @@
 *.swift linguist-vendored
 *.html linguist-vendored
 
-# Optional: Ignore common native folders
-ios/** linguist-vendored
+# Exclude folders that may contain native/non-Dart code
 android/** linguist-vendored
+ios/** linguist-vendored
 build/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored
