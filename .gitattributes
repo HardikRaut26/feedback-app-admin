@@ -1,0 +1,9 @@
+*.cpp linguist-vendored
+*.c linguist-vendored
+*.cmake linguist-vendored
+*.swift linguist-vendored
+*.html linguist-vendored
+third_party/** linguist-vendored
+native/** linguist-vendored
+ios/** linguist-vendored
+android/** linguist-vendored
