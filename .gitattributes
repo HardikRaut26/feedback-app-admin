@@ -3,7 +3,8 @@
 *.cmake linguist-vendored
 *.swift linguist-vendored
 *.html linguist-vendored
-third_party/** linguist-vendored
-native/** linguist-vendored
+
+# Optional: Ignore common native folders
 ios/** linguist-vendored
 android/** linguist-vendored
+build/** linguist-vendored
